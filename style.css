@@ -78,7 +78,7 @@ header #toggle::after{
     transform: translateX(-400px);
 }
 #navigation{
-    position: absolute;
+    position: fixed;
     top: 0;
     right: -200px;
     width: 400px;
@@ -88,6 +88,7 @@ header #toggle::after{
     display: grid;
     place-items: center;
     transition: 0.5s;
+    overflow: hidden;
 }
 #navigation.active{
     right: 0;
@@ -217,13 +218,15 @@ header #toggle::after{
 .footer{
     background: #303036;
     color: #d3d3d3;
-    height: 35px;
-    position: relative;
+    height: 20px;
+    width: 100%;
+    position: absolute;
     border: 1px solid rgb(24, 113, 245);
 }
 .footer .footer-content{
     border: 1px solid rgb(24, 113, 245);
-    height: 35px;
+    /* height: 20px; */
+    width: 100%;
 }
 .footer .footer-bottom{
     background: #343a40;
