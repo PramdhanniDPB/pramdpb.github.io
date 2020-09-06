@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PramdhanniDPB</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="banner" id="sec">
+            <header>
+                <a href="#" class="logo">Pram</a>
+                <div id="toggle" onclick="toggle()"></div>
+            </header>
+            <div class="content">
+                <h2>Halo Semua,<br>Saya <span>PramdhanniD.P.B</span></h2>
+                <p>Saya adalah Pelajar di SMK Plus Pelita Nusantara, saya mengambil jurusan Rekayasa Perangkat Lunak
+                    (RPL). Saya sedang mendalami web developing yaitu Front end(design web), maupun Back end(web
+                    server).
+                </p>
+                <a href="#">Ketahui lebih lanjut</a>
+            </div>
+            <ul class="sci">
+                <li><a href="https://www.facebook.com/pramsopel/" target="_blank"><img src="facebook.png"></a></li>
+                <li><a href="https://www.instagram.com/klmnopram.dpb/?hl=id" target="_blank"><img src="ig.png"
+                            width="65px"></a></li>
+                <li><a href="https://github.com/PramdhanniDPB" width="90px" target="_blank"><img src="git.png"></a></li>  
+                <div class="tumblr">
+                    <li><a href="https://www.tumblr.com/blog/pramdhanshit" target="_blank"><img src="tumblr.png"></a></li>
+                </div>
+            </ul>
+        </section>
+        <div id="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section about"></div>
+            <div class="footer-section links"></div>
+            <div class="footer-section contact-form"></div>
+        </div>
+
+
+
+        <div class="footer-bottom">
+            &copy; PramDPB. | Designed by Pramdhanni Dwi Putra Bintang
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function toggle() {
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigation');
+            sec.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
